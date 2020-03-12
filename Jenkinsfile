@@ -3,7 +3,7 @@
     stages {
         stage ('test') {
             steps {
-                sh "test"
+                print "test"
             }
         }
     }
