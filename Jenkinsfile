@@ -6,5 +6,10 @@
                 print "test"
             }
         }
+        stage ('deploy') {
+            steps {
+                print "deploy"
+            }
+        }
     }
  }
