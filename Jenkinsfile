@@ -11,5 +11,10 @@
                 print "deploy"
             }
         }
+        stage ('success') {
+            steps {
+                print"success"
+            }
+        }
     }
  }
