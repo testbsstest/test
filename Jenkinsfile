@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage ('Build'){
+        stage ('env variables'){
             steps {
-                echo 'Build new project'
+                sh 'printenv'
             }
         }
     }
